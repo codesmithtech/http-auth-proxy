@@ -12,5 +12,5 @@ server {
 }
 
 upstream protected_backend {
-    server ${BACKEND_URL};
+    server ${BACKEND_HOST_AND_PORT};
 }
